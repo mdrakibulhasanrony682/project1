@@ -1,0 +1,218 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+}
+.logo{
+    color: #1a8c75;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 75px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 33px;
+    font-size: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+ul li a:hover{
+    color: #1a8c75;
+    font-size: 15px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 250px;
+    background: transparent;
+    border: 1px solid #1a8c75;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+}
+.srch:focus{
+    outline: none;
+}
+.btn{
+    width: 100px;
+    height: 44px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1a8c75;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+}
+.btn:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2;
+}
+.content span{
+    color: #1a8c75;
+    font-size: 60px;
+}
+.content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2;
+    font-weight: 500;
+    line-height: 30px;
+}
+.content p span{
+    color:gold;
+    font-size: 16px;
+}
+.content .ju{
+    width: 140px;
+    height: 40px;
+    background: #1a8c75;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 22px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    transition: 0.2s ease-in;
+}
+.content .ju:hover{
+    color: white;
+}
+.form{
+    width: 230px;
+    height: 350px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #1a8c75;
+    background: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 1px;
+    padding: 7px;
+}
+.form input{
+    width: 225px;
+    height: 35px;
+    background:transparent;
+    border-bottom: 1px solid #1a8c75;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.form input:focus{
+    outline: none;
+}
+.loginbtn{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 5px;
+    font-weight: 550;
+    background: #1a8c75;
+    transition: 0.2s ease-in;
+    border: none;
+    margin-left: 5px;
+}
+.loginbtn:hover{
+    background: white;
+    color: #1a8c75
+}
+.link{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.form p a{
+    color: #1a8c75;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 35px;
+}
+.liw{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 45px;
+}
